@@ -57,7 +57,7 @@ video_segment_extractor/
 
 1. **Клонируйте репозиторий**:
    ```bash
-   git clone https://github.com/Prikur76/video-segment-extractor.git
+   git clone https://github.com/Prikur76/Video-Segment-Extractor.git
    cd video-segment-extractor
    ```
 
