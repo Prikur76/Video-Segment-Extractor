@@ -1,0 +1,10 @@
+- video_dataset: "20241123_194318"
+  video_paths:
+    - data/input/20241123_194318/video_1.mp4
+    - data/input/20241123_194318/video_2.mp4
+  json_path: data/input/20241123_194318/cam1_20250123.json  
+  frame_offsets: [0, 9497, ]  # Отступы должны быть расположены в соответствии с порядком видеофайлов
+  output_dir: "data/output/20241123_194318"
+  codec: libx264
+  fps: 30.00
+  execution_mode: parallel  # Возможные значения: "parallel" или "sequential"
